@@ -1,15 +1,15 @@
 /* Base styles */
 body {
-  background-color: #006400;
+  background-color: #E0FFFF;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
 }
 
-h1, h2 {
+h1, h2,  h3 {
   text-align: center;
-  color: #ADD8E6;
+  color: #006400;
 }
 
 p {
@@ -17,3 +17,33 @@ p {
   padding: 8px 16px;
 }
 
+
+/* IDs for sections */
+#intro {
+  color: #20B2AA;
+  padding: 16px;
+}
+
+#getting-started {
+  color: #000000;
+  padding: 16px;
+}
+
+/* Classes */
+.section-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: #A52A2A;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+/* Center header image */
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
