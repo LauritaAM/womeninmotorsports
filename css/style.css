@@ -1,0 +1,19 @@
+/* Base styles */
+body {
+  background-color: #006400;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ADD8E6;
+}
+
+p {
+  font-size: 18px;
+  padding: 8px 16px;
+}
+
