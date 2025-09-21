@@ -1,4 +1,6 @@
-/* Base styles */
+/* ------------------------------
+   Base styles
+------------------------------ */
 body {
   background-color: #E0FFFF;
   font-family: Arial, sans-serif;
@@ -7,43 +9,80 @@ body {
   padding: 0;
 }
 
-h1, h2,  h3 {
+h1, h2, h3 {
   text-align: center;
-  color: #006400;
+  color: #006400;  /* all titles are now dark green */
 }
 
 p {
   font-size: 18px;
   padding: 8px 16px;
+  color: #000000;
 }
 
-
-/* IDs for sections */
+/* ------------------------------
+   IDs for sections
+------------------------------ */
 #intro {
-  color: #20B2AA;
+  color: #20B2AA;   /* optional, body text in intro */
   padding: 16px;
 }
 
 #getting-started {
-  color: #000000;
+  color: #000000;   /* optional, body text in getting-started */
   padding: 16px;
 }
 
-/* Classes */
+#career-paths {
+  color: #006400;   /* title color optional, ensures consistency */
+}
+
+#nadia-photo {
+  color: #006400;
+}
+
+/* ------------------------------
+   Classes
+------------------------------ */
 .section-title {
   font-weight: bold;
   text-transform: uppercase;
+  color: #006400;   /* all section titles dark green */
 }
 
 .highlight {
-  color: #A52A2A;
+  color: #d63384;   /* highlighted paragraph text */
   padding: 4px 8px;
   border-radius: 5px;
 }
 
-/* Center header image */
+.quote {
+  color:#B22222;
+  padding: 4px 8px;
+}
+
 .center-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* ------------------------------
+   Flexbox layout
+------------------------------ */
+.flex-container {
+  display: flex;
+  gap: 20px;
+  padding: 16px;
+  justify-content: space-between;
+  flex-wrap: wrap;  /* responsive wrapping */
+}
+
+.flex-item {
+  flex: 1;
+  min-width: 250px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #FFF5EE;
 }
