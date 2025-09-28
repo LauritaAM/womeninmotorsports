@@ -11,7 +11,7 @@ body {
 
 h1, h2, h3 {
   text-align: center;
-  color: #006400;  /* all titles are now dark green */
+  color: #004d00; 
 }
 
 p {
@@ -24,21 +24,21 @@ p {
    IDs for sections
 ------------------------------ */
 #intro {
-  color: #20B2AA;   /* optional, body text in intro */
+  color: #006666;
   padding: 16px;
 }
 
 #getting-started {
-  color: #000000;   /* optional, body text in getting-started */
+  color: #000000; 
   padding: 16px;
 }
 
 #career-paths {
-  color: #006400;   /* title color optional, ensures consistency */
+  color: #004d00;
 }
 
 #nadia-photo {
-  color: #006400;
+  color: #004d00;
 }
 
 /* ------------------------------
@@ -47,17 +47,17 @@ p {
 .section-title {
   font-weight: bold;
   text-transform: uppercase;
-  color: #006400;   /* all section titles dark green */
+  color: #004d00; 
 }
 
 .highlight {
-  color: #d63384;   /* highlighted paragraph text */
+  color: #99004d;   
   padding: 4px 8px;
   border-radius: 5px;
 }
 
 .quote {
-  color:#B22222;
+  color:#800000;
   padding: 4px 8px;
 }
 
@@ -84,7 +84,7 @@ p {
   padding: 16px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  background-color: #FFF5EE;
+  background-color: #FFF0E0;
 }
 
 /* ------------------------------
