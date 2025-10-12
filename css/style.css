@@ -2,69 +2,86 @@
    Base styles
 ------------------------------ */
 body {
-  background-color: #E0FFFF;
-  font-family: Arial, sans-serif;
+  background-color: #f8f9fc;
+  font-family: 'Segoe UI',Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  color: #222;
 }
 
 h1, h2, h3 {
   text-align: center;
-  color: #004d00; 
+  color: #002B5B; 
 }
 
 p {
   font-size: 18px;
   padding: 8px 16px;
-  color: #000000;
+  color: #333333;
 }
 
 /* ------------------------------
    IDs for sections
 ------------------------------ */
 #intro {
-  color: #006666;
+  color: #002B5B;
   padding: 16px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 #getting-started {
-  color: #000000; 
+  color: #111111; 
   padding: 16px;
 }
 
 #career-paths {
-  color: #004d00;
+  color: #002B5B;
 }
 
 #nadia-photo {
-  color: #004d00;
+  color: #002B5B;
 }
 
+.box-style {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: #333333;
+  
 /* ------------------------------
    Classes
 ------------------------------ */
+
 .section-title {
   font-weight: bold;
   text-transform: uppercase;
-  color: #004d00; 
+  color: #002B5B;
 }
 
 .highlight {
-  color: #99004d;   
-  padding: 4px 8px;
+  background-color: #fff8e1;
+  color: #3a2f00;
+  padding: 8px 12px;
+  border-left: 5px solid #ffc107;
   border-radius: 5px;
 }
 
 .quote {
-  color:#800000;
+  color: #6c757d;
   padding: 4px 8px;
+  font-style: italic;
 }
 
 .center-img {
-  display: block;
+   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
 
